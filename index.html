@@ -11,11 +11,11 @@
 
 <body class="bg-[#1a0b2e] text-white min-h-screen">
   <!-- Header section start from here -->
-  <header class="px-4 py-4 md:px-8 md:py-6 lg:px-16 flex justify-between items-center">
+  <header class="px-4 py-4 md:px-8 md:py-6 lg:px-16 lg:mx-52 flex justify-between items-center">
     <!-- tech-wave Logo -->
     <div>
       <h1 class="text-2xl md:text-3xl font-bold">
-        <span class="text-white">Tech</span><span class="">Wave</span>
+        <span class="text-white">Tech</span><span class="bg-gradient-to-l to-[#F7E93F] via-[#FB09B4] from-[#9100F8] bg-clip-text text-transparent">Wave</span>
       </h1>
     </div>
 
@@ -26,10 +26,7 @@
       <a href="" class="text-white hover:text-pink-400 transition-colors">Host</a>
     </nav>
 
-    <button
-      class="hidden sm:block lg:block md:block px-4 py-3 rounded-full bg-gradient-to-l to-[#F7E93F] via-[#FB09B4] from-[#9100F8]">
-      Subscribe <i class="fa-solid fa-arrow-right"></i>
-    </button>
+    <button class="hidden md:hidden sm:block lg:block px-4 py-3 rounded-full bg-gradient-to-l to-[#F7E93F] via-[#FB09B4] from-[#9100F8] text-base">Subscribe</button>
 
     <!-- Menu image -->
     <button class="lg:hidden">
@@ -70,8 +67,7 @@
 
         <!-- section button -->
         <div class="flex flex-col sm:flex-row gap-4 md:gap-6 items-center">
-          <button
-            class="font-semibold w-full sm:w-auto rounded-full flex items-center justify-center px-6 md:px-8 py-3 md:py-4 gap-2 md:gap-3">
+          <button class="font-semibold w-full sm:w-auto rounded-full flex items-center justify-center px-6 md:px-8 py-3 md:py-4 gap-2 md:gap-3 bg-gradient-to-l to-[#F7E93F] via-[#FB09B4] from-[#9100F8]">
             <img src="image/spotify.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
             <span>Listen On Spotify</span>
           </button>
@@ -86,7 +82,7 @@
     </section>
 
     <!-- 2nd section start from here -->
-    <section class="px-4 py-12 md:py-16 md:px-8 lg:px-16 lg:py-20">
+    <section class="px-4 py-12 md:py-16 md:px-8 lg:px-16 lg:py-20 lg:mx-52">
       <!-- section title -->
       <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 md:mb-10 text-center">About The Podcast</h3>
 <!-- section description -->
@@ -126,13 +122,58 @@
     </section>
 
     <!-- 3rd section start from here -->
-     <section></section>
+     <section class="bg-[#230E3D] rounded-4xl px-4 py-12 md:py-16 md:px-8 lg:px-16 lg:py-20 lg:mx-52">
+      <div>
+        <h1 class="text-3xl font-bold mb-4 text-center md:text-5xl md:font-bold md:mb-10 lg:text-5xl lg:mb-10 lg:font-bold">Why Choose TechWave</h1>
+      <!-- card start from here -->
+        <div class="space-y-4 gap-7 grid md:grid-cols-2 lg:grid-cols-3">
+<!-- 1st card -->
+          <div class="space-y-4 bg-[rgba(53,17,101,0.4)] py-24 px-10 rounded-3xl md:row-span-1 md:col-span-1 lg:row-span-2 lg:col-span-1 text-center lg:text-left">
+            <img src="./image/headphone.png" alt="" class="mx-auto lg:mx-0">
+            <h3 class="text-2xl font-bold">Premium Audio Quality</h3>
+      
+            <p class="text-lg/6">Experience crystal-clear sound with professional-grade recording equipment and expert audio
+              engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+          </div>
+      <!-- 2nd card -->
+          <div class="space-y-4 bg-[rgba(53,17,101,0.4)] p-6 rounded-3xl md:row-span-1 md:col-span-1 lg:row-span-1 lg:col-span-2 text-center lg:text-left">
+            <img src="./image/device.png" alt="" class="mx-auto lg:mx-0">
+            <h3 class="text-2xl font-bold">Mobile Friendly</h3>
+      
+            <p class="text-lg/6">Listen on the go with seamless mobile experience and offline downloads.</p>
+          </div>
+      <!-- 3rd card -->
+          <div class="space-y-4  bg-[rgba(53,17,101,0.4)] p-6 rounded-3xl md:row-span-1 md:col-span-1 lg:row-span-1 lg:col-span-2 text-center lg:text-left">
+            <img src="./image/location.png" alt="" class="mx-auto lg:mx-0">
+            <h3 class="text-2xl font-bold">Global Community</h3>
+      
+            <p class="text-lg/6">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+          </div>
+      <!-- 4th card -->
+          <div class="space-y-4  bg-[rgba(53,17,101,0.4)] p-6 rounded-3xl md:row-span-1 md:col-span-1 lg:row-span-1 lg:col-span-2 text-center lg:text-left">
+            <img src="./image/zap-fast.png" alt="" class="mx-auto lg:mx-0">
+            <h3 class="text-2xl font-bold">Exclusive Interviews</h3>
+      
+            <p class="text-lg/6">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host
+              secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and
+              success strategies.</p>
+          </div>
+      <!-- 5th card -->
+          <div class="space-y-4  bg-[rgba(53,17,101,0.4)] p-6 rounded-3xl md:row-span-1 md:col-span-1 lg:row-span-1 lg:col-span-1 text-center lg:text-left">
+            <img src="./image/resource.png" alt="" class="mx-auto lg:mx-0">
+            <h3 class="text-2xl font-bold">Rich Resources</h3>
+      
+            <p class="text-lg/6">Access show notes, transcripts, and additional learning materials for every episode.</p>
+          </div>
+        </div>
+      </div>
+     </section>
 
       <!-- 4th section start from here -->
-      <section class="px-4 py-12 md:px-8 md:py-16 lg:px-16 lg:py-20">
+      <section class="px-4 py-12 md:px-8 md:py-16 lg:px-16 lg:py-20 lg:mx-52">
         <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-12 text-center">Featured Episodes</h3>
       
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           <!-- 1st episode -->
           <div class="bg-[#2d1b4e] rounded-2xl overflow-hidden hover:bg-[#3d2568]">
             <div>
@@ -196,10 +237,10 @@
       </section>
 
           <!-- 5th section start from here -->
-          <section class="px-4 py-12 md:py-16 md:px-8 lg:px-16 lg:py-20">
+          <section class="px-4 py-12 md:py-16 md:px-8 lg:px-16 lg:py-20 lg:mx-52">
             <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-12 text-center">Meet The Host</h3>
           
-            <div class="max-w-4xl mx-auto">
+            <div>
               <div class="bg-[#2d1b4e] rounded-2xl p-6 md:p-8 lg:p-12">
                 <div class="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
                   <!-- host -->
@@ -263,9 +304,7 @@
 
 
 
-  <footer>
-
-  </footer>
+<footer></footer>
 </body>
 
 </html>
