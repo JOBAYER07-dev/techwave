@@ -4,11 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>TECHWAVE</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-</head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+body{
+  font-family: sans-serif;
+  font-style: normal;
+}
+</style>
+</head>
 <body class="bg-[#1a0b2e] text-white min-h-screen">
   <!-- Header section start from here -->
   <header class="px-4 py-4 md:px-8 md:py-6 lg:px-16 lg:mx-52 flex justify-between items-center">
@@ -34,28 +41,30 @@
 
     <!-- Menu image -->
     <button class="lg:hidden">
-      <img src="image/hamburger-menu.png" alt="Menu" class="w-6 h-6 cursor-pointer">
+      <img src="./image/hamburger-menu.png" alt="Menu" class="w-6 h-6 cursor-pointer">
     </button>
   </header>
+
   <hr class="border-0.5 border-gray-600">
 
   <main>
     <!-- 1st section start from here -->
-    <section class="px-4 py-12 md:py-16 md:px-8 lg:px-16 lg:py-20 bg-[url('./image/hero-bg.png')] w-full bg-cover bg-center">
+    <section
+      class="px-4 py-12 md:py-16 md:px-8 lg:px-16 lg:py-20 bg-[url('./image/hero-bg.png')] w-full bg-cover bg-center">
 
 
-      
+
 
       <div class="flex flex-col items-center text-center">
 
 
         <div class="relative">
 
-          <img src="image/hero-circle.png" alt="" class="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 relative z-10">
+          <img src="./image/hero-circle.png" alt="" class="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 relative z-10">
 
 
           <div class="absolute inset-0 flex items-center justify-center z-20">
-            <img src="image/microphone.png" alt="" class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40">
+            <img src="./image/microphone.png" alt="" class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40">
           </div>
 
 
@@ -76,7 +85,7 @@
         <div class="flex flex-col sm:flex-row gap-4 md:gap-6 items-center">
           <button
             class="cursor-pointer font-semibold w-full sm:w-auto rounded-full flex items-center justify-center px-6 md:px-8 py-3 md:py-4 gap-2 md:gap-3 bg-gradient-to-l to-[#F7E93F] via-[#FB09B4] from-[#9100F8] hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/40 hover:brightness-110 transition-all duration-300 ease-in-out">
-            <img src="image/spotify.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
+            <img src="./image/spotify.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
             <span>Listen On Spotify</span>
           </button>
 
@@ -104,24 +113,25 @@
       <p class="text-base md:text-lg text-gray-300 mb-8 md:mb-12 max-w-4xl mx-auto text-center">
         Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
       </p>
-
+      <hr class="border-0.5 border-gray-700 mb-8">
       <!-- section text and numbers -->
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-20 max-w-5xl mx-auto">
+        <!-- 1st achievement -->
         <div class="text-center">
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#22c55e] mb-2">150K+</h1>
           <p class="text-sm md:text-base text-gray-300">MONTHLY LISTENERS</p>
         </div>
-
+        <!-- 2nd achievement -->
         <div class="text-center">
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#22c55e] mb-2">200+</h1>
           <p class="text-sm md:text-base text-gray-300">EPISODES PUBLISHED</p>
         </div>
-
+        <!-- 3rd achievement -->
         <div class="text-center">
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#22c55e] mb-2">4.9</h1>
           <p class="text-sm md:text-base text-gray-300">AVERAGE RATING</p>
         </div>
-
+        <!-- 4th achievement -->
         <div class="text-center">
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#22c55e] mb-2">50+</h1>
           <p class="text-sm md:text-base text-gray-300">INDUSTRY EXPERTS</p>
@@ -210,7 +220,7 @@
               Exploring how artificial intelligence is transforming our daily routines and what to expect in the next...
             </p>
             <div class="flex items-center gap-2 text-[#22c55e]">
-              <img src="image/clock.png" alt="" class="w-4 h-4 md:w-5 md:h-5">
+              <img src="./image/clock.png" alt="" class="w-4 h-4 md:w-5 md:h-5">
               <span class="text-sm md:text-base font-medium">42 min</span>
             </div>
           </div>
@@ -231,7 +241,7 @@
               Practical strategies for staying productive and maintaining work-life balance in a...
             </p>
             <div class="flex items-center gap-2 text-[#22c55e]">
-              <img src="image/clock.png" alt="" class="w-4 h-4 md:w-5 md:h-5">
+              <img src="./image/clock.png" alt="" class="w-4 h-4 md:w-5 md:h-5">
               <span class="text-sm md:text-base font-medium">35 min</span>
             </div>
           </div>
@@ -252,7 +262,7 @@
               Expert advice on navigating your tech career from junior developer to senior leadership...
             </p>
             <div class="flex items-center gap-2 text-[#22c55e]">
-              <img src="image/clock.png" alt="" class="w-4 h-4 md:w-5 md:h-5">
+              <img src="./image/clock.png" alt="" class="w-4 h-4 md:w-5 md:h-5">
               <span class="text-sm md:text-base font-medium">51 min</span>
             </div>
           </div>
@@ -271,7 +281,7 @@
         <div class="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
           <!-- host -->
           <div class="mt-8">
-            <img src="image/host.png" alt=""
+            <img src="./image/host.png" alt=""
               class="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full object-cover">
           </div>
 
@@ -289,22 +299,22 @@
 
               <a href=""
                 class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#3d2568] flex items-center justify-center hover:bg-[#4d3088] transition">
-                <img src="image/linkedin.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
+                <img src="./image/linkedin.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
               </a>
 
               <a href=""
                 class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#3d2568] flex items-center justify-center hover:bg-[#4d3088] transition">
-                <img src="image/instagram.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
+                <img src="./image/instagram.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
               </a>
 
               <a href=""
                 class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#3d2568] flex items-center justify-center hover:bg-[#4d3088] transition">
-                <img src="image/x.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
+                <img src="./image/x.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
               </a>
 
               <a href=""
                 class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#3d2568] flex items-center justify-center hover:bg-[#4d3088] transition">
-                <img src="image/youtube.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
+                <img src="./image/youtube.png" alt="" class="w-5 h-5 md:w-6 md:h-6">
               </a>
 
             </div>
@@ -316,14 +326,50 @@
     </section>
   </main>
 
+  <footer class="relative min-h-[300px] md:min-h-[350px] flex items-center justify-center overflow-hidden">
+    <!-- Background Image -->
+    <div class="absolute inset-0">
+      <img src="./image/footer-bg.png" alt="Footer Background" class="w-full h-full object-cover">
+    </div>
 
 
+    <div class="absolute text-center px-4 py-8 md:py-12">
+      <!-- footer-logo -->
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-8">
+        <span class="text-white">Tech</span><span
+          class="bg-gradient-to-l to-[#F7E93F] via-[#FB09B4] from-[#9100F8] bg-clip-text text-transparent">Wave</span>
+      </h1>
 
+      <!-- Social icons -->
+      <div class="flex flex-wrap items-center justify-center gap-4 md:gap-6 lg:gap-8 mb-6 md:mb-8">
+        <!-- 1st icon -->
+        <a href=""
+          class="flex items-center gap-2 text-white/80 hover:text-white transition-colors duration-300 text-sm md:text-base"><img
+            src="./image/spotify.png" alt="" class="w-4 h-4 md:w-5 md:h-5"><span>Spotify</span></a>
 
+        <!-- 2nd icon -->
+        <a href=""
+          class="flex items-center gap-2 text-white/80 hover:text-white transition-colors duration-300 text-sm md:text-base"><img
+            src="./image/apple-podcast.png" alt="" class="w-4 h-4 md:w-5 md:h-5"><span>Apple Podcasts</span></a>
 
+        <!-- 3rd icon -->
+        <a href=""
+          class="flex items-center gap-2 text-white/80 hover:text-white transition-colors duration-300 text-sm md:text-base"><img
+            src="./image/youtube-podcast.png" alt="" class="w-4 h-4 md:w-5 md:h-5"><span>YouTube</span></a>
 
+        <!-- 4th icon -->
+        <a href=""
+          class="flex items-center gap-2 text-white/80 hover:text-white transition-colors duration-300 text-sm md:text-base"><img
+            src="./image/twitter.png" alt="" class="w-4 h-4 md:w-5 md:h-5"><span>Twitter</span></a>
 
-<footer></footer>
+      </div>
+
+      <!-- copyright massage -->
+      <p class="text-white/60 text-xs md:text-sm">
+        © 2026 TechWave Podcast. All rights reserved.
+      </p>
+    </div>
+  </footer>
 
 
 </body>
